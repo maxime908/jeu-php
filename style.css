@@ -1,0 +1,71 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.no-white-space h1 {
+    white-space: nowrap;
+}
+
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.vh-20 {
+    height: calc(20vh - 3rem);
+}
+
+.vh-80-50px {
+    height: 69vh;
+}
+
+.progress-bar {
+    height: 15px;
+    width: auto;
+    width: 100%;
+}
+
+.gap-50px {
+    gap: 50px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.img-enemy {
+    transform: translateX(200%);
+}
+
+.img-enemy img {
+    transform: scaleX(-1);
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.progress {
+    border: none !important;
+    height: fit-content;
+    box-shadow: unset;
+}
+
+form, #game {
+    padding: 3rem 3rem 0 3rem;
+}
+
+#affichageDegatPerso, #affichageDegatEnemy {
+    cursor: default;
+}
