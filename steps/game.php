@@ -58,7 +58,21 @@
             <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar progressPersonnage" style="width: 25%"></div>
             </div>
-            <button type="button" id="minusLifeEnemy" class="btn btn-secondary" style="width: fit-content;">Attaquer le bot</button>
+            <div class="d-flex gap-3 align-items-center" id="buttonAction">
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" id="minusLifeEnemy" value="attaque" class="btn btn-danger" style="width: fit-content;" title="Attaquer">⚔️</button>
+                    <span class="text-white" id="display-attack">0</span>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" id="shield" value="bouclier" class="btn btn-primary" style="width: fit-content;" title="Se défendre">🛡️</button>
+                    <span class="text-white" id="display-shield">0</span>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <button type="button" id="energy" value="charge" class="btn btn-warning" style="width: fit-content;" title="Charger">⚡</button>
+                    <span class="text-white" id="display-charge">0</span>
+                </div>
+                <span id="remaining_move" class="text-white ms-3">Action restante : </span>
+            </div>
         </div>
 
         <div class="d-flex flex-column gap-2 w-100 ">
@@ -88,7 +102,10 @@
     <div id="actions" class="card position-fixed bottom-0 right-0 m-auto w-25" style="height: fit-content;">
         <div class="card-body">
             <h5 class="card-title">A vous de jouer !</h5>
-            <button id="restart" class="btn btn-primary">Recommencer</button>
+            <div class="hidden">
+                <button id="restart" class="btn btn-primary">Recommencer</button>
+                <button id="scoreboard" class="btn btn-primary">Tableau des scores</button>
+            </div>
         </div>
     </div>
 </div>

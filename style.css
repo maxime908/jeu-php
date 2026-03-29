@@ -69,3 +69,12 @@ form, #game {
 #affichageDegatPerso, #affichageDegatEnemy {
     cursor: default;
 }
+
+.shield {
+    border-radius: 50%;
+    box-shadow:
+    0 0 5px #00f,
+    0 0 15px #00f,
+    0 0 30px #0ff,
+    0 0 60px rgba(0, 255, 255, 0.7);
+}
