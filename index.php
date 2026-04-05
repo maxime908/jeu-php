@@ -15,7 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <title>Jeu PHP</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <title>Endless Heroes</title>
 </head>
 <body>
     <audio id="mainSong" src="assets/mainSong.mp3" loop></audio>

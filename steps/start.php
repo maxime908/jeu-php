@@ -53,7 +53,7 @@
         <span>🧍 Choisis ton personnage (vie ❤️, dégâts 💥)</span><br>
 
         <span>🔁 Le jeu se joue en rounds</span><br>
-        <span>➡️ Tu gardes ta vie entre chaque round</span><br>
+        <span>➡️ Tu gardes ta vie entre chaque round mais ton nombre d'attaque, de bouclier et de charge est réinisialiser</span><br>
         <span>🔥 Le but est d’aller le plus loin possible</span><br>
 
         <br>

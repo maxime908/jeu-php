@@ -188,7 +188,9 @@ let botCoup = 0
 
 let coupUp = 1
 let countRound = 0
+
 let incr = 0
+
 let playerCoup = coupUp + stockPlayer.energy
 
 document.getElementById("remaining_move").textContent += playerCoup + "/4"
